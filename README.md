@@ -14,8 +14,15 @@ mit relevanten Code-Fragmenten und einer Analyse unter [./Jupyter/](https://gith
 
 ## Nutzung
 
-Über die herkömmliche Ausführung von Python-Programmen hinaus sind auch ausführbare Windows-Executable Dateien
-im Verzeichnis [./dist/](https://github.com/bmarv/Intelligent-Editor-Environment/tree/master/dist) vorhanden.
+Über die herkömmliche Ausführung von Python-Programmen hinaus ist auch eine ausführbare Windows-Executable Dateien
+im Verzeichnis [./dist/](https://github.com/bmarv/Intelligent-Editor-Environment/tree/master/dist) verfügbar.
+
+## Installation
+Die für eine Installation benötigten Pakete sind in der Datei _requirements.txt_ beinhaltet und können mit pip installiert werden mithilfe des folgenden Befehls
+```bash
+pip install -r requirements.txt
+```
+Sollte es unter Debian-basierten Linuxdistributionen zu Problemen bei der Installation kommen, könnte die manuelle Installation von tkinter und wheels vonnöten sein. _tkinter_ kann als apt-Installation und wheels als pip-Installation bezogen werden.
 
 ## Programmteile
 
@@ -44,16 +51,3 @@ Zeichen problemlos und mit einer sehr geringen Verzögerung.
 
 Eine Kurzfassung des Programmes gibt mittels [Jupyter-Dokument](https://github.com/bmarv/Intelligent-Editor-Environment/blob/master/Jupyter/IEE%20-%20Textstatistik.ipynb) Auskunft
 über Programmabschnitte und Ergebnisse der Analyse von *Die Leiden des jungen Werthers*.
-
-## Entwicklungsumgebung
-
-Das Programm wurde mit *Python 3.8* und *Windows 10 x64-based processor*
-entwickelt und unter *Ubuntu Gnome 18.04* getestet.
-
-Die Packages *tkinter, ttkthemes, os, matplotlib, numpy,
-string, re, getpass* und *unittest* wurden verwendet.
-
-## Selbstständigkeitserklärung
-
-Dieses Projekt wurde in alleiniger Arbeit und ohne Mithilfe anderer Personen 
-oder Programme erstellt.
