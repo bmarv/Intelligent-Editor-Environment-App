@@ -1,0 +1,8 @@
+build/
+Basic_Gui/*.txt
+.idea/workspace.xml
+Basic_Gui/__pycache__/
+Generation/__pycache__/
+Statistics/__pycache__/
+Testing/__pycache__/
+.venv/
